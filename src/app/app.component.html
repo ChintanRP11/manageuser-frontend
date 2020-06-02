@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a routerLink= "home" class="btn btn-light btn-sm" role="button" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink= "user/add" class="btn btn-light btn-sm" role="button" routerLinkActive="active">Create</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="users" class="btn btn-light btn-sm" role="button" routerLinkActive="active">View</a>
+        </li>
+      </ul>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

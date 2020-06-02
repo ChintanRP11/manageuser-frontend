@@ -1,0 +1,47 @@
+table,
+div {
+  width: 90%;
+  margin:auto;
+}
+
+div {
+  margin-top:15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+  margin-bottom:10px;
+}
+
+.btn-group button {
+  background-color: #4CAF50;
+  border: 1px solid green;
+  color: white;
+  padding: 7px 15px;
+  cursor: pointer;
+  float: left;  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+th {
+  font-size: 16px;
+}
